@@ -2393,5 +2393,19 @@
     </div>
 
     <!-- Attach a Fallback value to a CSS Variable end -->
+    <!-- Improve Compatibility with Browser Fallbacks start -->
+    <style>
+      :root {
+        --red-color: red;
+      }
+      .red-box {
+        background: red;
+        background: var(--red-color);
+        height: 200px;
+        width: 200px;
+      }
+    </style>
+    <div class="red-box"></div>
+    <!-- Improve Compatibility with Browser Fallbacks end -->
   </body>
 </html>
