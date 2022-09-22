@@ -1,279 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CSS Hands On</title>
-</head>
-<style>
-    h2{
+  </head>
+  <style>
+    h2 {
       color: red;
     }
-    .red-text{
-        color: blue;
+    .red-text {
+      color: blue;
     }
   </style>
-<body>
+  <body>
     <!-- H2 Color Change Start -->
     <h2 class="h2_color">CatPhotoApp</h2>
-<main>
-  <p>Click here to view more <a href="#">cat photos</a>.</p>
+    <main>
+      <p>Click here to view more <a href="#">cat photos</a>.</p>
 
-  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      <a href="#"
+        ><img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="A cute orange cat lying on its back."
+      /></a>
 
-  <div>
-    <p>Things cats love:</p>
-    <ul>
-      <li>cat nip</li>
-      <li>laser pointers</li>
-      <li>lasagna</li>
-    </ul>
-    <p>Top 3 things cats hate:</p>
-    <ol>
-      <li>flea treatment</li>
-      <li>thunder</li>
-      <li>other cats</li>
-    </ol>
-  </div>
+      <div>
+        <p>Things cats love:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
 
-  <form action="https://freecatphotoapp.com/submit-cat-photo">
-    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-    <label><input type="checkbox" name="personality" checked> Loving</label>
-    <label><input type="checkbox" name="personality"> Lazy</label>
-    <label><input type="checkbox" name="personality"> Energetic</label><br>
-    <input type="text" placeholder="cat photo URL" required>
-    <button type="submit">Submit</button>
-  </form>
-</main>
-<!-- H2 Color Change Start -->
-<!-- Use CSS Selectors to Style Elements start -->
-  <h2>CatPhotoApp</h2>
-  <main>
-    <p>Click here to view more <a href="#">cat photos</a>.</p>
-  
-    <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-  
-    <div>
-      <p>Things cats love:</p>
-      <ul>
-        <li>cat nip</li>
-        <li>laser pointers</li>
-        <li>lasagna</li>
-      </ul>
-      <p>Top 3 things cats hate:</p>
-      <ol>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-      </ol>
-    </div>
-  
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
-      <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-      <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-      <label><input type="checkbox" name="personality" checked> Loving</label>
-      <label><input type="checkbox" name="personality"> Lazy</label>
-      <label><input type="checkbox" name="personality"> Energetic</label><br>
-      <input type="text" placeholder="cat photo URL" required>
-      <button type="submit">Submit</button>
-    </form>
-  </main>
-  <!-- Use CSS Selectors to Style Elements end -->
-  <!-- Use a CSS Class to Style an Element start -->
-  
-  <h2 class="red-text">CatPhotoApp</h2>
-  <main>
-    <p>Click here to view more <a href="#">cat photos</a>.</p>
-  
-    <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-  
-    <div>
-      <p>Things cats love:</p>
-      <ul>
-        <li>cat nip</li>
-        <li>laser pointers</li>
-        <li>lasagna</li>
-      </ul>
-      <p>Top 3 things cats hate:</p>
-      <ol>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-      </ol>
-    </div>
-  
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
-      <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-      <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-      <label><input type="checkbox" name="personality" checked> Loving</label>
-      <label><input type="checkbox" name="personality"> Lazy</label>
-      <label><input type="checkbox" name="personality"> Energetic</label><br>
-      <input type="text" placeholder="cat photo URL" required>
-      <button type="submit">Submit</button>
-    </form>
-  </main>
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label
+          ><input type="radio" name="indoor-outdoor" checked /> Indoor</label
+        >
+        <label><input type="radio" name="indoor-outdoor" /> Outdoor</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" checked /> Loving</label
+        >
+        <label><input type="checkbox" name="personality" /> Lazy</label>
+        <label><input type="checkbox" name="personality" /> Energetic</label
+        ><br />
+        <input type="text" placeholder="cat photo URL" required />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <!-- H2 Color Change Start -->
+    <!-- Use CSS Selectors to Style Elements start -->
+    <h2>CatPhotoApp</h2>
+    <main>
+      <p>Click here to view more <a href="#">cat photos</a>.</p>
 
-  <!-- Use a CSS Class to Style an Element end -->
-  <!-- Style Multiple Elements with a CSS Class start -->
-  <h2 class="red-text">CatPhotoApp</h2>
-  <main>
-    <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
-  
-    <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-  
-    <div>
-      <p>Things cats love:</p>
-      <ul>
-        <li>cat nip</li>
-        <li>laser pointers</li>
-        <li>lasagna</li>
-      </ul>
-      <p>Top 3 things cats hate:</p>
-      <ol>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-      </ol>
-    </div>
-  
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
-      <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-      <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-      <label><input type="checkbox" name="personality" checked> Loving</label>
-      <label><input type="checkbox" name="personality"> Lazy</label>
-      <label><input type="checkbox" name="personality"> Energetic</label><br>
-      <input type="text" placeholder="cat photo URL" required>
-      <button type="submit">Submit</button>
-    </form>
-  </main>
-  <!-- Style Multiple Elements with a CSS Class end -->
-  <!-- Change the Font Size of an Element start -->
-  
-  <h2 class="red-text">CatPhotoApp</h2>
-  <main>
-    <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
-  
-    <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-  
-    <div>
-      <p>Things cats love:</p>
-      <ul>
-        <li>cat nip</li>
-        <li>laser pointers</li>
-        <li>lasagna</li>
-      </ul>
-      <p>Top 3 things cats hate:</p>
-      <ol>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-      </ol>
-    </div>
-  
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
-      <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-      <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-      <label><input type="checkbox" name="personality" checked> Loving</label>
-      <label><input type="checkbox" name="personality"> Lazy</label>
-      <label><input type="checkbox" name="personality"> Energetic</label><br>
-      <input type="text" placeholder="cat photo URL" required>
-      <button type="submit">Submit</button>
-    </form>
-  </main>
+      <a href="#"
+        ><img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="A cute orange cat lying on its back."
+      /></a>
 
-  <!-- Change the Font Size of an Element end -->
-  <!-- Set the Font Family of an Element start -->
-  <style>
-    .red-text {
-      color: red;
-    }
-    p {
-      font-size: 16px;
-      font-family: monospace;
-    }
-  </style>
-  
-  <h2 class="red-text">CatPhotoApp</h2>
-  <main>
-    <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
-  
-    <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-  
-    <div>
-      <p>Things cats love:</p>
-      <ul>
-        <li>cat nip</li>
-        <li>laser pointers</li>
-        <li>lasagna</li>
-      </ul>
-      <p>Top 3 things cats hate:</p>
-      <ol>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-      </ol>
-    </div>
-  
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
-      <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-      <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-      <label><input type="checkbox" name="personality" checked> Loving</label>
-      <label><input type="checkbox" name="personality"> Lazy</label>
-      <label><input type="checkbox" name="personality"> Energetic</label><br>
-      <input type="text" placeholder="cat photo URL" required>
-      <button type="submit">Submit</button>
-    </form>
-  </main>
-  <!-- Set the Font Family of an Element end -->
-  <!-- Import a Google Font start -->
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-  <style>
-    .red-text {
-      color: red;
-    }
-    h2{
-      font-family:Lobster;
-    }
-    p {
-      font-size: 16px;
-      font-family: monospace;
-    }
-  </style>
-  
-  <h2 class="red-text">CatPhotoApp</h2>
-  <main>
-    <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
-  
-    <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-  
-    <div>
-      <p>Things cats love:</p>
-      <ul>
-        <li>cat nip</li>
-        <li>laser pointers</li>
-        <li>lasagna</li>
-      </ul>
-      <p>Top 3 things cats hate:</p>
-      <ol>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-      </ol>
-    </div>
-  
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
-      <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-      <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-      <label><input type="checkbox" name="personality" checked> Loving</label>
-      <label><input type="checkbox" name="personality"> Lazy</label>
-      <label><input type="checkbox" name="personality"> Energetic</label><br>
-      <input type="text" placeholder="cat photo URL" required>
-      <button type="submit">Submit</button>
-    </form>
-  </main>
-  <!-- Import a Google Font end -->
-</body>
+      <div>
+        <p>Things cats love:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label
+          ><input type="radio" name="indoor-outdoor" checked /> Indoor</label
+        >
+        <label><input type="radio" name="indoor-outdoor" /> Outdoor</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" checked /> Loving</label
+        >
+        <label><input type="checkbox" name="personality" /> Lazy</label>
+        <label><input type="checkbox" name="personality" /> Energetic</label
+        ><br />
+        <input type="text" placeholder="cat photo URL" required />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <!-- Use CSS Selectors to Style Elements end -->
+    <!-- Use a CSS Class to Style an Element start -->
+
+    <h2 class="red-text">CatPhotoApp</h2>
+    <main>
+      <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+      <a href="#"
+        ><img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="A cute orange cat lying on its back."
+      /></a>
+
+      <div>
+        <p>Things cats love:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label
+          ><input type="radio" name="indoor-outdoor" checked /> Indoor</label
+        >
+        <label><input type="radio" name="indoor-outdoor" /> Outdoor</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" checked /> Loving</label
+        >
+        <label><input type="checkbox" name="personality" /> Lazy</label>
+        <label><input type="checkbox" name="personality" /> Energetic</label
+        ><br />
+        <input type="text" placeholder="cat photo URL" required />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <!-- Use a CSS Class to Style an Element end -->
+    <!-- Style Multiple Elements with a CSS Class start -->
+    <h2 class="red-text">CatPhotoApp</h2>
+    <main>
+      <p class="red-text">
+        Click here to view more <a href="#">cat photos</a>.
+      </p>
+
+      <a href="#"
+        ><img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="A cute orange cat lying on its back."
+      /></a>
+
+      <div>
+        <p>Things cats love:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label
+          ><input type="radio" name="indoor-outdoor" checked /> Indoor</label
+        >
+        <label><input type="radio" name="indoor-outdoor" /> Outdoor</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" checked /> Loving</label
+        >
+        <label><input type="checkbox" name="personality" /> Lazy</label>
+        <label><input type="checkbox" name="personality" /> Energetic</label
+        ><br />
+        <input type="text" placeholder="cat photo URL" required />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <!-- Style Multiple Elements with a CSS Class end -->
+    <!-- Change the Font Size of an Element start -->
+
+    <h2 class="red-text">CatPhotoApp</h2>
+    <main>
+      <p class="red-text">
+        Click here to view more <a href="#">cat photos</a>.
+      </p>
+
+      <a href="#"
+        ><img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="A cute orange cat lying on its back."
+      /></a>
+
+      <div>
+        <p>Things cats love:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label
+          ><input type="radio" name="indoor-outdoor" checked /> Indoor</label
+        >
+        <label><input type="radio" name="indoor-outdoor" /> Outdoor</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" checked /> Loving</label
+        >
+        <label><input type="checkbox" name="personality" /> Lazy</label>
+        <label><input type="checkbox" name="personality" /> Energetic</label
+        ><br />
+        <input type="text" placeholder="cat photo URL" required />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <!-- Change the Font Size of an Element end -->
+    <!-- Set the Font Family of an Element start -->
+    <style>
+      .red-text {
+        color: red;
+      }
+      p {
+        font-size: 16px;
+        font-family: monospace;
+      }
+    </style>
+
+    <h2 class="red-text">CatPhotoApp</h2>
+    <main>
+      <p class="red-text">
+        Click here to view more <a href="#">cat photos</a>.
+      </p>
+
+      <a href="#"
+        ><img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="A cute orange cat lying on its back."
+      /></a>
+
+      <div>
+        <p>Things cats love:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label
+          ><input type="radio" name="indoor-outdoor" checked /> Indoor</label
+        >
+        <label><input type="radio" name="indoor-outdoor" /> Outdoor</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" checked /> Loving</label
+        >
+        <label><input type="checkbox" name="personality" /> Lazy</label>
+        <label><input type="checkbox" name="personality" /> Energetic</label
+        ><br />
+        <input type="text" placeholder="cat photo URL" required />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <!-- Set the Font Family of an Element end -->
+    <!-- Import a Google Font start -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      .red-text {
+        color: red;
+      }
+      h2 {
+        font-family: Lobster;
+      }
+      p {
+        font-size: 16px;
+        font-family: monospace;
+      }
+    </style>
+
+    <h2 class="red-text">CatPhotoApp</h2>
+    <main>
+      <p class="red-text">
+        Click here to view more <a href="#">cat photos</a>.
+      </p>
+
+      <a href="#"
+        ><img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="A cute orange cat lying on its back."
+      /></a>
+
+      <div>
+        <p>Things cats love:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label
+          ><input type="radio" name="indoor-outdoor" checked /> Indoor</label
+        >
+        <label><input type="radio" name="indoor-outdoor" /> Outdoor</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" checked /> Loving</label
+        >
+        <label><input type="checkbox" name="personality" /> Lazy</label>
+        <label><input type="checkbox" name="personality" /> Energetic</label
+        ><br />
+        <input type="text" placeholder="cat photo URL" required />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <!-- Import a Google Font end -->
+    <!-- Specify How Fonts Should Degrade start -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
+    <style>
+      .red-text {
+        color: red;
+      }
+
+      h2 {
+        font-family: Lobster, monospace;
+      }
+
+      p {
+        font-size: 16px;
+        font-family: monospace;
+      }
+    </style>
+
+    <h2 class="red-text">CatPhotoApp</h2>
+    <main>
+      <p class="red-text">
+        Click here to view more <a href="#">cat photos</a>.
+      </p>
+
+      <a href="#"
+        ><img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="A cute orange cat lying on its back."
+      /></a>
+
+      <div>
+        <p>Things cats love:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label
+          ><input type="radio" name="indoor-outdoor" checked /> Indoor</label
+        >
+        <label><input type="radio" name="indoor-outdoor" /> Outdoor</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" checked /> Loving</label
+        >
+        <label><input type="checkbox" name="personality" /> Lazy</label>
+        <label><input type="checkbox" name="personality" /> Energetic</label
+        ><br />
+        <input type="text" placeholder="cat photo URL" required />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <!-- Specify How Fonts Should Degrade end -->
+  </body>
 </html>
